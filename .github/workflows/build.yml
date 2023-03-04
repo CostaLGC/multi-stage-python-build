@@ -26,8 +26,6 @@ jobs:
          push: true
          tags: lgcosta/app:latest
 
-    - name: Checkout Code
-      uses: actions/checkout@v2
     - name: Terraform Init
       uses: hashicorp/setup-terraform@v1
       with:
