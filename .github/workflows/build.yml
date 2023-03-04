@@ -8,3 +8,6 @@ on:
 jobs:
   build:
     runs-on: python:3.8-slim-buster 
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
