@@ -1,0 +1,2 @@
+DEFAULT_NAME = "World"
+DEFAULT_PORT = 80
