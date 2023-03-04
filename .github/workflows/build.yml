@@ -14,3 +14,4 @@ jobs:
     - name: Run docker command
       run: |
          docker images
+         docker build -t image-teste-1 .
