@@ -12,4 +12,6 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
     - name: Run docker command
-      run: docker ps
+      run: |
+         docker pull alpine
+         docker ps
